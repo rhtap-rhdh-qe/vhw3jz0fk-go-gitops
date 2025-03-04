@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata: 
+  labels: 
+    app.kubernetes.io/instance: vhw3jz0fk-go
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/name: vhw3jz0fk-go 
+  name: vhw3jz0fk-go
+spec:
+  ports:
+  - port: 8081 
+    targetPort: 8081 
+  selector:
+    app.kubernetes.io/instance: vhw3jz0fk-go 

@@ -1,0 +1,6 @@
+apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
+kind: Repository
+metadata:
+  name: vhw3jz0fk-go-repository
+spec:
+  url: https://github.com/rhtap-rhdh-qe/vhw3jz0fk-go
